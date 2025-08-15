@@ -1,5 +1,5 @@
 function add_quickref_item(parent, data, type) {
-    var icon = data.icon || "thrown-daggers";
+    var icon = data.icon || "run";
     var subtitle = data.subtitle || "";
     var title = data.title || "[no title]";
 
