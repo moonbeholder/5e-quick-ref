@@ -1,10 +1,10 @@
 data_movement = [
     {
         title: "Move",
-        icon: "run",
+        icon: "sword-brandish",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 190.",
+        reference: "???",
         bullets: [
             "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
             "You can move through a nonhostile creature's space.",
