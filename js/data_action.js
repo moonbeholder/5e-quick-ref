@@ -1,7 +1,7 @@
 data_action = [
     {
         title: "Attack",
-        icon: "sword-brandish",
+        icon: "pointy-sword",
         subtitle: "Make a melee or ranged attack.",
         description: "Attack with a weapon or an Unarmed Strike.",
         reference: "???",
@@ -129,8 +129,8 @@ data_action = [
     {
         title: "Search",
         icon: "magnifying-glass",
-        subtitle: "",
-        description: "Make a Wisdom check.",
+        subtitle: "Make a Wisdom check.",
+        description: "Try to spot something not obvious.",
         reference: "???",
         bullets: [
             "When you take the Search action, you make a Wisdom check to discern something that isn’t obvious. The Search table suggests which skills are applicable when you take this action, depending on what you’re trying to detect.",
@@ -140,8 +140,8 @@ data_action = [
     {
         title: "Study",
         icon: "think",
-        subtitle: "Call to mind some information.",
-        description: "Make an Intelligence check.",
+        subtitle: "Make an Intelligence check.",
+        description: "Try to deduce important information.",
         reference: "???",
         bullets: [
             "When you take the Study action, you make an Intelligence check to study your memory, a book, a clue, or another source of knowledge and call to mind an important piece of information about it.",
