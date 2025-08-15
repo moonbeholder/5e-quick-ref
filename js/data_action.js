@@ -1,7 +1,7 @@
 data_action = [
     {
         title: "Attack",
-        icon: "pointy-sword",
+        icon: "run",
         subtitle: "Make a melee or ranged attack.",
         description: "Attack with a weapon or an Unarmed Strike.",
         reference: "???",
