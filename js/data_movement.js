@@ -15,7 +15,7 @@ data_movement = [
     },
     {
         title: "Climb",
-        icon: "mountain climbing",
+        icon: "mountain-climbing",
         subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft climbed",
         reference: "PHB, pg. 182.",
