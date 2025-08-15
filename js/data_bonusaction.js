@@ -1,36 +1,32 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
-        icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
-        reference: "PHB, pgs. 192,194-195.",
+        title: "Extra Attack",
+        icon: "sword-brandish",
+        subtitle: "Make an extra attack.",
+        description: "Attack with another Light weapon.",
+        reference: "???",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "When you take the Attack action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don’t add your ability modifier to the extra attack’s damage unless that modifier is negative. For example, you can attack with a Shortsword in one hand and a Dagger in the other using the Attack action and a Bonus Action, but you don’t add your Strength or Dexterity modifier to the damage roll of the Bonus Action unless that modifier is negative."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Magic",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
-        reference: "PHB, pg. 192.",
+        subtitle: "Cast time of 1 bonus action.",
+        description: "Cast a spell as a bonus action",
+        reference: "???",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "You cast a spell that has a casting time of 1 Bonus Action."
         ]
     },
     {
-        title: "Use class feature",
-        icon: "embrassed-energy",
+        title: "Other Ability",
+        icon: "embraced-energy",
         subtitle: "Some features use bonus actions",
         description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        reference: "See  page for more information.",
         bullets: [
-
+            "You can take a Bonus Action if a special ability, or another feature of the game states that you can do something as a Bonus Action."
         ]
     }
 ]
