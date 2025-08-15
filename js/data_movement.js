@@ -1,7 +1,7 @@
 data_movement = [
     {
         title: "Move",
-        icon: "sword-brandish",
+        icon: "crags",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft moved",
         reference: "???",
