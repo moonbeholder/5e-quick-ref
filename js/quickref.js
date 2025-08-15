@@ -1,5 +1,5 @@
 function add_quickref_item(parent, data, type) {
-    var icon = data.icon || "run";
+    var icon = data.icon || "perspective-dice-six-faces-random";
     var subtitle = data.subtitle || "";
     var title = data.title || "[no title]";
 
