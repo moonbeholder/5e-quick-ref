@@ -60,7 +60,7 @@ data_action = [
     {
         title: "Help",
         icon: "shaking-hands",
-        subtitle: "Grant an ally help.",
+        subtitle: "Aid an ally.",
         description: "Help another creature’s ability check or attack roll, or administer first aid.",
         reference: "???",
         bullets: [
@@ -72,7 +72,7 @@ data_action = [
     {
         title: "Hide",
         icon: "hood",
-        subtitle: "Try to conceal yourself.",
+        subtitle: "Conceal yourself.",
         description: "Make a Dexterity (Stealth) check.",
         reference: "???",
         bullets: [
@@ -109,7 +109,7 @@ data_action = [
     {
         title: "Magic",
         icon: "magic-swirl",
-        subtitle: "Use a Magic action.",
+        subtitle: "Do something magic.",
         description: "Cast a spell, use a magic item, or use a magical feature.",
         reference: "???",
         bullets: [
@@ -120,7 +120,7 @@ data_action = [
     {
         title: "Other Ability",
         icon: "embraced-energy",
-        subtitle: "Use a character's ability.",
+        subtitle: "Use a character ability.",
         description: "Use a class feature or another ability.",
         reference: "See class page for more information.",
         bullets: [
@@ -130,7 +130,7 @@ data_action = [
     {
         title: "Ready",
         icon: "stopwatch",
-        subtitle: "Choose a trigger and action.",
+        subtitle: "Prepare an action.",
         description: "Prepare to take an action in response to a trigger you define.",
         reference: "???",
         bullets: [
@@ -143,7 +143,7 @@ data_action = [
     {
         title: "Search",
         icon: "magnifying-glass",
-        subtitle: "Make a Wisdom check.",
+        subtitle: "Use your senses.",
         description: "Try to spot something not obvious.",
         reference: "???",
         bullets: [
@@ -154,7 +154,7 @@ data_action = [
     {
         title: "Shove",
         icon: "hand",
-        subtitle: "Move another creature.",
+        subtitle: "Push another creature.",
         description: "Push, pull, or knock down another creature.",
         reference: "See Unarmed Strike",
         bullets: [
@@ -164,7 +164,7 @@ data_action = [
     {
         title: "Study",
         icon: "think",
-        subtitle: "Make an Intelligence check.",
+        subtitle: "Use your brain.",
         description: "Try to deduce important information.",
         reference: "???",
         bullets: [
@@ -175,7 +175,7 @@ data_action = [
     {
         title: "Unarmed Strike",
         icon: "punch",
-        subtitle: "A special melee attack.",
+        subtitle: "Make an unarmed attack.",
         description: "Make an attack without a weapon.",
         reference: "???",
         bullets: [
