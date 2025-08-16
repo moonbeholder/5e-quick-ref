@@ -72,7 +72,7 @@ data_action = [
     {
         title: "Hide",
         icon: "hood",
-        subtitle: "",
+        subtitle: "Try to conceal yourself.",
         description: "Make a Dexterity (Stealth) check.",
         reference: "???",
         bullets: [
