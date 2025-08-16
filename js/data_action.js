@@ -44,6 +44,20 @@ data_action = [
         ]
     },
     {
+        title: "Grapple",
+        icon: "grab",
+        subtitle: "Grab a creature.",
+        description: "Grab another creature with a hand, etc. and hold onto them.",
+        reference: "See Grappling, Unarmed Strike",
+        bullets: [
+            "A creature can grapple another creature. Characters typically grapple by using an Unarmed Strike. Many monsters have special attacks that allow them to quickly grapple prey. However a grapple is initiated, it follows these rules.",
+            "<b><i>Initiating a Grapple.</b></i> The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the Grappled condition. The DC for the saving throw and any escape attempts equals 8 plus your Strength modifier and Proficiency Bonus. This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it.",
+            "<b><i>Grappled Condition.</b></i> Successfully grappling a creature gives it the Grappled condition.",
+            "<b><i>One Grapple per Hand.</b></i> A creature must have a hand free to grapple another creature. Some stat blocks and game effects allow a creature to grapple using a tentacle, a maw, or another body part. Whatever part a grappler uses, it can grapple only one creature at a time with that part, and the grappler can’t use that part to target another creature unless it ends the grapple.",
+            "<b><i>Ending a Grapple.</b></i> A Grappled creature can use its action to make a Strength (Athletics) or Dexterity (Acrobatics) check against the grapple’s escape DC, ending the condition on itself on a success. The condition also ends if the grappler has the Incapacitated condition or if the distance between the Grappled target and the grappler exceeds the grapple’s range. In addition, the grappler can release the target at any time (no action required)."
+        ]
+    },
+    {
         title: "Help",
         icon: "shaking-hands",
         subtitle: "Grant an ally help.",
@@ -135,6 +149,16 @@ data_action = [
         bullets: [
             "When you take the Search action, you make a Wisdom check to discern something that isn’t obvious. The Search table suggests which skills are applicable when you take this action, depending on what you’re trying to detect.",
             "Depending on the nature of your Search, the DM might have you make one of the following skill checks: <b>Insight</b>, <b>Medicine</b>, <b>Perception</b>, or <b>Survival</b>."
+        ]
+    },
+    {
+        title: "Shove",
+        icon: "hand",
+        subtitle: "Move another creature.",
+        description: "Push, pull, or knock down another creature.",
+        reference: "See Unarmed Strike",
+        bullets: [
+            "The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push it 5 feet away or cause it to have the Prone condition. The DC for the saving throw equals 8 plus your Strength modifier and Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you."
         ]
     },
     {
