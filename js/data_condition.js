@@ -205,9 +205,6 @@ data_condition = [
         description: "You hover on the brink of death, barely clinging to life.",
         reference: "See Playing the Game: Damage and Healing (Dropping to Zero Hit Points)",
         bullets: [
-            "When a creature drops to 0 Hit Points, it either dies outright or falls unconscious.",
-            "<b>Hit Point Maximum of 0.</b> A creature dies if its Hit Point maximum reaches 0. Certain effects drain life energy, reducing a creature’s Hit Point maximum.",
-            "<b>Massive Damage.</b> When damage reduces a character to 0 Hit Points and damage remains, the character dies if the remainder equals or exceeds their Hit Point maximum. For example, if your character has a Hit Point maximum of 12, currently has 6 Hit Points, and takes 18 damage, the character drops to 0 Hit Points, but 12 damage remains. The character then dies, since 12 equals their Hit Point maximum.",
             "<b>Falling Unconscious</b> If you reach 0 Hit Points and don’t die instantly, you have the Unconscious condition until you regain any Hit Points, and you now face making Death Saving Throws.",
             "<b>Death Saving Throws.</b> Whenever you start your turn with 0 Hit Points, you must make a Death Saving Throw to determine whether you creep closer to death or hang on to life. Unlike other saving throws, this one isn’t tied to an ability score. You’re in the hands of fate now.",
             "<b>Three Successes/Failures.</b> Roll 1d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become Stable. On your third failure, you die. The successes and failures don’t need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any Hit Points or become Stable.",
