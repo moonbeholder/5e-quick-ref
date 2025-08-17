@@ -1,58 +1,55 @@
 data_environment_obscurance = [
     {
-        title: "Lightly obscured",
-        icon: "bleeding-eye",
-        subtitle: "Disadvantage on Perception",
-        description: "Dim light, patchy fog, moderate foliage",
-        reference: "PHB, pg. 183.",
+        title: "Lightly Obscured",
+        icon: "high-grass",
+        subtitle: "Disadvantage on Perception.",
+        description: "The environment is hazy or unclear, making details harder to see.",
+        reference: "See Playing the Game: Exploration (Vision and Light), Rules Glossary: Lightly Obscured",
         bullets: [
-            "Creatures have <b>disadvantage on Wisdom (Perception)</b> checks that rely on sight."
+            "In a Lightly Obscured area—such as an area with Dim Light, patchy fog, or moderate foliage—you have Disadvantage on Wisdom (Perception) checks that rely on sight."
         ]
     },
     {
-        title: "Heavily obscured",
-        icon: "lightning-tear",
-        subtitle: "Effectively blind",
-        description: "Darkness, opaque fog, dense foliage",
-        reference: "PHB, pg. 183.",
+        title: "Heavily Obscured",
+        icon: "vines",
+        subtitle: "Effectively blind.",
+        description: "The environment is shrouded in darkness, fog, or similar cover, making it impossible to see.",
+        reference: "See Playing the Game: Exploration (Vision and Light), Rules Glossary: Heavily Obscured",
         bullets: [
-            "A creature in a heavily obscured area effectively suffers from the <b>blinded condition</b>."
+            "A Heavily Obscured area—such as an area with Darkness, heavy fog, or dense foliage—is opaque. You have the Blinded condition when trying to see something there."
         ]
     }
 ]
 
 data_environment_light = [
     {
-        title: "Bright light",
-        icon: "star-pupil",
-        subtitle: "Normal vision",
-        description: "Bright light lets most creatures see normally",
-        reference: "PHB, pg. 183.",
+        title: "Bright Light",
+        icon: "sunbeams",
+        subtitle: "Normal vision.",
+        description: "The area is clearly illuminated, with everything plainly visible.",
+        reference: "See Playing the Game: Exploration (Vision and Light)",
         bullets: [
-            "Gloomy days still provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius."
+            "Bright Light lets most creatures see normally. Even gloomy days provide Bright Light, as do torches, lanterns, fires, and other sources of illumination within a specific radius."
         ]
     },
     {
-        title: "Dim light",
-        icon: "semi-closed-eye",
-        subtitle: "Lightly obscured",
-        description: "Dim light, also called shadows",
-        reference: "PHB, pg. 183.",
+        title: "Dim Light",
+        icon: "candle-light",
+        subtitle: "Lightly obscured.",
+        description: "The area is shadowed, where details blur and sight is uncertain.",
+        reference: "See Playing the Game: Exploration (Vision and Light)",
         bullets: [
-            "Creates a <b>lightly obscured</b> area.",
-            "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness.",
-            "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light."
+            "Dim Light, also called shadows, creates a Lightly Obscured area. An area of Dim Light is usually a boundary between Bright Light and surrounding Darkness. The soft light of twilight and dawn also counts as Dim Light. A full moon might bathe the land in Dim Light."
         ]
     },
     {
         title: "Darkness",
         icon: "worried-eyes",
-        subtitle: "Heavily obscured",
-        description: "Darkness creates a heavily obscured area",
-        reference: "PHB, pg. 183.",
+        subtitle: "Heavily obscured.",
+        description: "The area is devoid of light, leaving many creatures unable to see.",
+        reference: "See Playing the Game: Exploration (Vision and Light)",
         bullets: [
-            "Creates a <b>heavily obscured</b> area.",
-            "Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness."
+            "Darkness creates a Heavily Obscured area. Characters face Darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon, or in an area of magical Darkness."
         ]
     }
 ]
@@ -60,73 +57,87 @@ data_environment_light = [
 data_environment_vision = [
     {
         title: "Blindsight",
-        icon: "one-eyed",
-        subtitle: "Perceive without sight",
-        description: "Perceive your surroundings without relying on sight, within a certain radius",
-        reference: "PHB, pg. 183.",
+        icon: "angry-eyes",
+        subtitle: "Perceive without sight.",
+        description: "Perceive your surroundings without relying on sight, within a certain radius.",
+        reference: "Rules Glossary: Blindsight",
         bullets: [
-            "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."
+            "If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can see anything that isn’t behind Total Cover even if you have the Blinded condition or are in Darkness. Moreover, in that range, you can see something that has the Invisible condition."
         ]
     },
     {
         title: "Darkvision",
         icon: "semi-closed-eye",
-        subtitle: "Limited vision in darkness",
-        description: "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius",
-        reference: "PHB, pgs. 183-184.",
+        subtitle: "Limited vision in darkness.",
+        description: "A creature can see better in the dark or low light conditions, within a certain radius.",
+        reference: "Rules Glossary: Darkvision",
         bullets: [
-            "Within a specified range, a creature with darkvision can <b>see in darkness as if the darkness were dim light</b>, so areas of darkness are only lightly obscured as far as that creature is concerned.",
-            "However, the creature can’t discern color in darkness, only shades of gray.",
-            "Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision."
+            "If you have Darkvision, you can see in Dim Light within a specified range as if it were Bright Light and in Darkness within that range as if it were Dim Light. You discern colors in that Darkness only as shades of gray."
+        ]
+    },
+    {
+        title: "Tremorsense",
+        icon: "eye-shield",
+        subtitle: "Perceive through vibration.",
+        description: "A creature can perceive movement without sight by sensing vibrations, within a certain radius.",
+        reference: "Rules Glossary: Tremorsense",
+        bullets: [
+            "A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it is detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.",
+            "Tremorsense can’t detect creatures or objects in the air, and it doesn’t count as a form of sight."
         ]
     },
     {
         title: "Truesight",
         icon: "eye-shield",
-        subtitle: "See in darkness",
-        description: "A creature with truesight can see everything in its true form, independent of the environment",
-        reference: "PHB, pg. 184.",
+        subtitle: "See in darkness.",
+        description: "A creature can see everything in its true form, independent of the environment, within a certain radius.",
+        reference: "Rules Glossary: Truesight",
         bullets: [
-            "A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic.",
-            "Furthermore, the creature can see into the Ethereal Plane."
+            "If you have Truesight, your vision is enhanced within a specified range. Within that range, your vision pierces through the following:",
+            "<b>Darkness.</b> You can see in normal and magical Darkness.",
+            "<b>Invisibility.</b> You see creatures and objects that have the Invisible condition.",
+            "<b>Visual Illusions.</b> Visual illusions appear transparent to you, and you automatically succeed on saving throws against them.",
+            "<b>Transformations.</b> You discern the true form of any creature or object you see that has been transformed by magic.",
+            "<b>Ethereal Plane.</b> You see into the Ethereal Plane."
         ]
     }
 ]
 
 data_environment_cover = [
     {
-        title: "Half cover",
-        icon: "broken-shield",
+        title: "Half Cover",
+        icon: "brick-pile",
         subtitle: "Low wall, furniture, creatures",
         description: "A target has half cover if an obstacle blocks at least half of its body",
-        reference: "PHB, pg. 196.",
+        reference: "See Playing the Game: Combat (Cover)",
         bullets: [
-            "The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.",
-            "A target with half cover has a <b>+2 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "A creature behind Half Cover gain a +2 bonus to AC and Dexterity saving throws.",
+            "Another creature or an object that covers at least half of the target provides Half Cover.",
+            "A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren’t added together. For example, if a target is behind a creature that gives Half Cover and a tree trunk that gives Three-Quarters Cover, the target has Three-Quarters Cover."
         ]
     },
     {
-        title: "Three-quarters cover",
-        icon: "cracked-shield",
+        title: "Three-Quarters Cover",
+        icon: "stakes-fence",
         subtitle: "Portcullis, arrow slit",
         description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
-        reference: "PHB, pg. 196.",
+        reference: "See Playing the Game: Combat (Cover)",
         bullets: [
-            "The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.",
-            "A target with three-quarters cover has a <b>+5 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "A creature behind Three-Quarters Cover gain a +5 bonus to AC and Dexterity saving throws.",
+            "An object that covers at least three-quarters of the target provides Three-Quarters Cover.",
+            "A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren’t added together. For example, if a target is behind a creature that gives Half Cover and a tree trunk that gives Three-Quarters Cover, the target has Three-Quarters Cover."
         ]
     },
     {
         title: "Full cover",
-        icon: "shield",
+        icon: "defensive-wall",
         subtitle: "Completely concealed",
         description: "A target has total cover if it is completely concealed by an obstacle",
-        reference: "PHB, pg. 196.",
+        reference: "See Playing the Game: Combat (Cover)",
         bullets: [
-            "A target with total cover <b>can’t be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "A creature behind Full Cover can't be targeted directly.",
+            "An object that covers the whole target provides Full Cover.",
+            "A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren’t added together. For example, if a target is behind a creature that gives Half Cover and a tree trunk that gives Three-Quarters Cover, the target has Three-Quarters Cover."
         ]
     }
 ]
