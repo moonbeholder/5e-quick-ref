@@ -1,14 +1,14 @@
 data_condition = [
     {
         title: "Blinded",
-        icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
-        reference: "PHB, pg. 290.",
+        icon: "blindfold",
+        subtitle: "You can't see.",
+        description: "You can't see, and fighting becomes difficult.",
+        reference: "See Rules Glossary: Blinded [Condition]",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "While you have the Blinded condition, you experience the following effects.",
+            "<b>Can’t See.</b> You can’t see and automatically fail any ability check that requires sight.",
+            "<b>Attacks Affected.</b> Attack rolls against you have Advantage, and your attack rolls have Disadvantage."
         ]
     },
     {
@@ -16,20 +16,22 @@ data_condition = [
         icon: "smitten",
         subtitle: "You are charmed",
         description: "You are charmed by another creature",
-        reference: "PHB, pg. 290.",
+        reference: "See Rules Glossary: Charmed [Condition]",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "While you have the Charmed condition, you experience the following effects.",
+            "<b>Can’t Harm the Charmer.</b> You can’t attack the charmer or target the charmer with damaging abilities or magical effects.",
+            "<b>Social Advantage.</b> The charmer has Advantage on any ability check to interact with you socially."
         ]
     },
     {
         title: "Deafened",
-        icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
-        reference: "PHB, pg. 290.",
+        icon: "hearing-disabled",
+        subtitle: "You can't hear.",
+        description: "You can't hear.",
+        reference: "See Rules Glossary: Deafened [Condition]",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "While you have the Deafened condition, you experience the following effect.",
+            "<b>Can’t Hear.</b> You can’t hear and automatically fail any ability check that requires hearing."
         ]
     },
     {
@@ -37,12 +39,13 @@ data_condition = [
         icon: "crawl",
         subtitle: "You are exhausted",
         description: "Exhaustion is measured in six levels",
-        reference: "PHB, pg. 291.",
+        reference: "See Rules Glossary: Exhaustion [Condition]",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink.",
-            "Also, being raised from the dead reduces a creature’s exhaustion level by 1."
+            "While you have the Exhaustion condition, you experience the following effects.",
+            "<b>Exhaustion Levels.</b> This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.",
+            "<b>D20 Tests Affected.</b> When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level.",
+            "<b>Speed Reduced.</b> Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level.",
+            "<b>Removing Exhaustion Levels.</b> Finishing a Long Rest removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends.""
         ]
     },
     {
