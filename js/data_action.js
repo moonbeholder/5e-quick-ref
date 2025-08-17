@@ -114,10 +114,11 @@ data_action = [
         icon: "magic-swirl",
         subtitle: "Do something magic.",
         description: "Cast a spell, use a magic item, or use a magical feature.",
-        reference: "See Rules Glossary: Magic [Action]",
+        reference: "See Rules Glossary: Magic [Action], Spells: Casting Spells (Casting Time)",
         bullets: [
             "When you take the Magic action, you cast a spell that has a casting time of an action or use a feature or magic item that requires a Magic action to be activated.",
-            "If you cast a spell that has a casting time of 1 minute or longer, you must take the Magic action on each turn of that casting, and you must maintain Concentration while you do so. If your Concentration is broken, the spell fails, but you don’t expend a spell slot."
+            "<b>One Spell with a Spell Slot per Turn.</b> On a turn, you can expend only one spell slot to cast a spell. This rule means you can’t, for example, cast a spell with a spell slot using the Magic action and another one using a Bonus Action on the same turn.",
+            "<b>Longer Casting Times.</b> Certain spells—including a spell cast as a Ritual—require more time to cast: minutes or even hours. While you cast a spell with a casting time of 1 minute or more, you must take the Magic action on each of your turns, and you must maintain Concentration (see the Rules Glossary) while you do so. If your Concentration is broken, the spell fails, but you don’t expend a spell slot. To cast the spell again, you must start over."
         ]
     },
     {
