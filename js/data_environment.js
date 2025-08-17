@@ -57,7 +57,7 @@ data_environment_light = [
 data_environment_vision = [
     {
         title: "Blindsight",
-        icon: "angry-eyes",
+        icon: "blindfold",
         subtitle: "Perceive without sight.",
         description: "Perceive your surroundings without relying on sight, within a certain radius.",
         reference: "Rules Glossary: Blindsight",
@@ -67,7 +67,7 @@ data_environment_vision = [
     },
     {
         title: "Darkvision",
-        icon: "semi-closed-eye",
+        icon: "angry-eyes",
         subtitle: "Limited vision in darkness.",
         description: "A creature can see better in the dark or low light conditions, within a certain radius.",
         reference: "Rules Glossary: Darkvision",
@@ -77,7 +77,7 @@ data_environment_vision = [
     },
     {
         title: "Tremorsense",
-        icon: "eye-shield",
+        icon: "boot-stomp",
         subtitle: "Perceive through vibration.",
         description: "A creature can perceive movement without sight by sensing vibrations, within a certain radius.",
         reference: "Rules Glossary: Tremorsense",
@@ -88,7 +88,7 @@ data_environment_vision = [
     },
     {
         title: "Truesight",
-        icon: "eye-shield",
+        icon: "all-seeing-eye",
         subtitle: "See in darkness.",
         description: "A creature can see everything in its true form, independent of the environment, within a certain radius.",
         reference: "Rules Glossary: Truesight",
@@ -107,8 +107,8 @@ data_environment_cover = [
     {
         title: "Half Cover",
         icon: "brick-pile",
-        subtitle: "Low wall, furniture, creatures",
-        description: "A target has half cover if an obstacle blocks at least half of its body",
+        subtitle: "Partially concealed.",
+        description: "The creature is partially conceiled, with about half its body exposed.",
         reference: "See Playing the Game: Combat (Cover)",
         bullets: [
             "A creature behind Half Cover gain a +2 bonus to AC and Dexterity saving throws.",
@@ -119,8 +119,8 @@ data_environment_cover = [
     {
         title: "Three-Quarters Cover",
         icon: "stakes-fence",
-        subtitle: "Portcullis, arrow slit",
-        description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
+        subtitle: "Mostly concealed.",
+        description: "The creature is mostly conceiled, with only a small part exposed.",
         reference: "See Playing the Game: Combat (Cover)",
         bullets: [
             "A creature behind Three-Quarters Cover gain a +5 bonus to AC and Dexterity saving throws.",
@@ -131,8 +131,8 @@ data_environment_cover = [
     {
         title: "Full cover",
         icon: "defensive-wall",
-        subtitle: "Completely concealed",
-        description: "A target has total cover if it is completely concealed by an obstacle",
+        subtitle: "Completely concealed.",
+        description: "The creature is completely conceiled, with no part of it exposed.",
         reference: "See Playing the Game: Combat (Cover)",
         bullets: [
             "A creature behind Full Cover can't be targeted directly.",
