@@ -123,7 +123,7 @@ data_action = [
     },
     {
         title: "Melee Attack",
-        icon: "swordswoman",
+        icon: "swordwoman",
         subtitle: "Make a melee attack.",
         description: "Attack a target within reach with a weapon or an Unarmed Strike.",
         reference: "See Playing the Game: Combat (Melee Attacks)",
