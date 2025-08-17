@@ -77,7 +77,7 @@ data_condition = [
     {
         title: "Incapacitated",
         icon: "internal-injury",
-        subtitle: "No actions, bonus actions, or reactions.",
+        subtitle: "Can't take ANY actions.",
         description: "You are unable to act, as your mind or body temporarily shuts down.",
         reference: "See Rules Glossary: Incapacitated [Condition]",
         bullets: [
