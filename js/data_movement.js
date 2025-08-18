@@ -70,7 +70,7 @@ data_movement = [
     },
     {
         title: "Improvise",
-        icon: "skateboarding-01",
+        icon: "skateboarding-02",
         subtitle: "Any stunt not on this list.",
         description: "Perform any kind of movement you can imagine.",
         reference: "???",
