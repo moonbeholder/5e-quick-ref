@@ -24,7 +24,7 @@ data_environment_obscurance = [
 data_environment_light = [
     {
         title: "Bright Light",
-        icon: "sunbeams",
+        icon: "primitive-torch",
         subtitle: "Normal vision.",
         description: "The area is clearly illuminated, with everything plainly visible.",
         reference: "See Playing the Game: Exploration (Vision and Light)",
