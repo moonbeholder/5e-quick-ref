@@ -2,7 +2,7 @@ data_condition = [
     {
         title: "Blinded",
         icon: "blindfold",
-        subtitle: "You can't see.",
+        subtitle: "Can't see",
         description: "You are plunged into darkness, unable to see.",
         reference: "See Rules Glossary: Blinded [Condition]",
         bullets: [
@@ -14,7 +14,7 @@ data_condition = [
     {
         title: "Charmed",
         icon: "smitten",
-        subtitle: "You are charmed.",
+        subtitle: "Influenced by another",
         description: "You are wrapped in a haze of affection, admiration, or trust toward another creature.",
         reference: "See Rules Glossary: Charmed [Condition]",
         bullets: [
@@ -26,7 +26,7 @@ data_condition = [
     {
         title: "Deafened",
         icon: "hearing-disabled",
-        subtitle: "You can't hear.",
+        subtitle: "Can't hear",
         description: "You are plunged into sudden silence.",
         reference: "See Rules Glossary: Deafened [Condition]",
         bullets: [
@@ -37,7 +37,7 @@ data_condition = [
     {
         title: "Exhaustion",
         icon: "despair",
-        subtitle: "You are exhausted.",
+        subtitle: "You're weakened",
         description: "You are worn out physically, mentally, or both.",
         reference: "See Rules Glossary: Exhaustion [Condition]",
         bullets: [
@@ -51,7 +51,7 @@ data_condition = [
     {
         title: "Frightened",
         icon: "sharp-smile",
-        subtitle: "You are frightened.",
+        subtitle: "You're frightened",
         description: "You are overwhelmed by fear.",
         reference: "See Rules Glossary: Frightened [Condition]",
         bullets: [
@@ -63,7 +63,7 @@ data_condition = [
     {
         title: "Grappled",
         icon: "grab",
-        subtitle: "You are grappled.",
+        subtitle: "Held in place",
         description: "You are held in place by another creature, unable to move freely.",
         reference: "See Rules Glossary: Grappled [Condition]",
         bullets: [
@@ -77,7 +77,7 @@ data_condition = [
     {
         title: "Incapacitated",
         icon: "internal-injury",
-        subtitle: "Can't take ANY actions.",
+        subtitle: "Unable to act",
         description: "You are unable to act, as your mind or body temporarily shuts down.",
         reference: "See Rules Glossary: Incapacitated [Condition]",
         bullets: [
@@ -91,7 +91,7 @@ data_condition = [
     {
         title: "Invisible",
         icon: "invisible",
-        subtitle: "You can't be seen.",
+        subtitle: "Unseen by others",
         description: "You are hidden from sight as though vanished from the world.",
         reference: "See Rules Glossary: Invisible [Condition]",
         bullets: [
@@ -104,7 +104,7 @@ data_condition = [
     {
         title: "Paralyzed",
         icon: "internal-injury",
-        subtitle: "You are paralyzed.",
+        subtitle: "Frozen in place",
         description: "You are frozen in place, unable to move or act, your body locked rigid.",
         reference: "See Rules Glossary: Paralyzed [Condition]",
         bullets: [
@@ -119,7 +119,7 @@ data_condition = [
     {
         title: "Petrified",
         icon: "rock",
-        subtitle: "You are turned to stone.",
+        subtitle: "Turned to stone",
         description: "You are transformed into solid stone, frozen in place and unaware of the world around you.",
         reference: "See Rules Glossary: Petrified [Condition]",
         bullets: [
@@ -136,7 +136,7 @@ data_condition = [
     {
         title: "Poisoned",
         icon: "poison-bottle",
-        subtitle: "You are poisoned.",
+        subtitle: "Weakened by toxins",
         description: "Your body is weakened by toxins, causing nausea and unsteadiness.",
         reference: "See Rules Glossary: Poisoned [Condition]",
         bullets: [
@@ -147,7 +147,7 @@ data_condition = [
     {
         title: "Prone",
         icon: "crawl",
-        subtitle: "You are prone.",
+        subtitle: "Flat on the ground",
         description: "You are sprawled on the ground and vulnerable.",
         reference: "See Rules Glossary: Prone [Condition]",
         bullets: [
@@ -159,7 +159,7 @@ data_condition = [
     {
         title: "Restrained",
         icon: "imprisoned",
-        subtitle: "You are restrained.",
+        subtitle: "Bound and immobile",
         description: "You are bound or trapped, unable to move freely.",
         reference: "See Rules Glossary: Restrained [Condition]",
         bullets: [
@@ -172,7 +172,7 @@ data_condition = [
     {
         title: "Stunned",
         icon: "knocked-out-stars",
-        subtitle: "You are stunned.",
+        subtitle: "Dazed and unresponsive",
         description: "You are dazed and overwhelmed, unable to act with clarity.",
         reference: "See Rules Glossary: Stunned [Condition]",
         bullets: [
@@ -185,8 +185,8 @@ data_condition = [
     {
         title: "Unconscious",
         icon: "coma",
-        subtitle: "You are unconscious.",
-        description: "",
+        subtitle: "Knocked out cold",
+        description: "You're knocked out, asleep, and helpless, completely unresponsive to the world.",
         reference: "See Rules Glossary: Unconscious [Condition]",
         bullets: [
             "While you have the Unconscious condition, you experience the following effects.",
@@ -201,7 +201,7 @@ data_condition = [
     {
         title: "Dying",
         icon: "backstab",
-        subtitle: "You are dying.",
+        subtitle: "Close to death",
         description: "You hover on the brink of death, barely clinging to life.",
         reference: "See Playing the Game: Damage and Healing (Dropping to Zero Hit Points)",
         bullets: [
