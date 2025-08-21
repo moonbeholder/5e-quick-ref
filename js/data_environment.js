@@ -2,7 +2,7 @@ data_environment_obscurance = [
     {
         title: "Lightly Obscured",
         icon: "high-grass",
-        subtitle: "Disadvantage on Perception.",
+        subtitle: "Partially concealed",
         description: "The environment is hazy or unclear, making details harder to see.",
         reference: "See Playing the Game: Exploration (Vision and Light), Rules Glossary: Lightly Obscured",
         bullets: [
@@ -12,7 +12,7 @@ data_environment_obscurance = [
     {
         title: "Heavily Obscured",
         icon: "vines",
-        subtitle: "Effectively blind.",
+        subtitle: "Fully concealed",
         description: "The environment is shrouded in darkness, fog, or similar cover, making it impossible to see.",
         reference: "See Playing the Game: Exploration (Vision and Light), Rules Glossary: Heavily Obscured",
         bullets: [
@@ -25,8 +25,8 @@ data_environment_light = [
     {
         title: "Bright Light",
         icon: "primitive-torch",
-        subtitle: "Normal vision.",
-        description: "The area is clearly illuminated, with everything plainly visible.",
+        subtitle: "Fully visible",
+        description: "The area is well lit, making sight unhindered.",
         reference: "See Playing the Game: Exploration (Vision and Light)",
         bullets: [
             "Bright Light lets most creatures see normally. Even gloomy days provide Bright Light, as do torches, lanterns, fires, and other sources of illumination within a specific radius."
@@ -35,8 +35,8 @@ data_environment_light = [
     {
         title: "Dim Light",
         icon: "candle-light",
-        subtitle: "Lightly obscured.",
-        description: "The area is shadowed, where details blur and sight is uncertain.",
+        subtitle: "Partially visible",
+        description: "The area is shadowed and details are blurry, making sight uncertain.",
         reference: "See Playing the Game: Exploration (Vision and Light)",
         bullets: [
             "Dim Light, also called shadows, creates a Lightly Obscured area. An area of Dim Light is usually a boundary between Bright Light and surrounding Darkness. The soft light of twilight and dawn also counts as Dim Light. A full moon might bathe the land in Dim Light."
@@ -45,8 +45,8 @@ data_environment_light = [
     {
         title: "Darkness",
         icon: "worried-eyes",
-        subtitle: "Heavily obscured.",
-        description: "The area is devoid of light, leaving many creatures unable to see.",
+        subtitle: "No visibility",
+        description: "The area is devoid of light, making normal sight impossible.",
         reference: "See Playing the Game: Exploration (Vision and Light)",
         bullets: [
             "Darkness creates a Heavily Obscured area. Characters face Darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon, or in an area of magical Darkness."
@@ -58,7 +58,7 @@ data_environment_vision = [
     {
         title: "Blindsight",
         icon: "blindfold",
-        subtitle: "Perceive without sight.",
+        subtitle: "Perceive without sight",
         description: "Perceive your surroundings without relying on sight, within a certain radius.",
         reference: "Rules Glossary: Blindsight",
         bullets: [
@@ -68,7 +68,7 @@ data_environment_vision = [
     {
         title: "Darkvision",
         icon: "angry-eyes",
-        subtitle: "Limited vision in darkness.",
+        subtitle: "See in darkness",
         description: "A creature can see better in the dark or low light conditions, within a certain radius.",
         reference: "Rules Glossary: Darkvision",
         bullets: [
@@ -78,7 +78,7 @@ data_environment_vision = [
     {
         title: "Tremorsense",
         icon: "boot-stomp",
-        subtitle: "Perceive through vibration.",
+        subtitle: "Feel vibrations",
         description: "A creature can perceive movement without sight by sensing vibrations, within a certain radius.",
         reference: "Rules Glossary: Tremorsense",
         bullets: [
@@ -89,7 +89,7 @@ data_environment_vision = [
     {
         title: "Truesight",
         icon: "all-seeing-eye",
-        subtitle: "See in darkness.",
+        subtitle: "See the truth",
         description: "A creature can see everything in its true form, independent of the environment, within a certain radius.",
         reference: "Rules Glossary: Truesight",
         bullets: [
@@ -107,7 +107,7 @@ data_environment_cover = [
     {
         title: "Half Cover",
         icon: "brick-pile",
-        subtitle: "Partially concealed.",
+        subtitle: "Partially concealed",
         description: "The creature is partially conceiled, with about half its body exposed.",
         reference: "See Playing the Game: Combat (Cover)",
         bullets: [
@@ -119,7 +119,7 @@ data_environment_cover = [
     {
         title: "Three-Quarters Cover",
         icon: "stakes-fence",
-        subtitle: "Mostly concealed.",
+        subtitle: "Mostly concealed",
         description: "The creature is mostly conceiled, with only a small part exposed.",
         reference: "See Playing the Game: Combat (Cover)",
         bullets: [
@@ -131,7 +131,7 @@ data_environment_cover = [
     {
         title: "Full cover",
         icon: "defensive-wall",
-        subtitle: "Completely concealed.",
+        subtitle: "Fully concealed",
         description: "The creature is completely conceiled, with no part of it exposed.",
         reference: "See Playing the Game: Combat (Cover)",
         bullets: [
