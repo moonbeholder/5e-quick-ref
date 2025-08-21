@@ -51,8 +51,8 @@ data_condition = [
     {
         title: "Frightened",
         icon: "sharp-smile",
-        subtitle: "You're frightened",
-        description: "You are overwhelmed by fear.",
+        subtitle: "Overcome by fear",
+        description: "You are overwhelmed by fear and struggle to face the source of it.",
         reference: "See Rules Glossary: Frightened [Condition]",
         bullets: [
             "While you have the Frightened condition, you experience the following effects.",
