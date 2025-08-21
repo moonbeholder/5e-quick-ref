@@ -22,6 +22,16 @@ data_reaction = [
         ]
     },
     {
+        title: "Other Ability",
+        icon: "embraced-energy",
+        subtitle: "Use a character ability",
+        description: "Perform a reaction tied to an ability or trait.",
+        reference: "See class or ability page for more information.",
+        bullets: [
+            "Certain special abilities allow you to take a Reaction."
+        ]
+    },
+    {
         title: "Readied Action",
         icon: "stopwatch",
         subtitle: "Act on a trigger",
