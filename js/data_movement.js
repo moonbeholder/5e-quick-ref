@@ -2,7 +2,7 @@ data_movement = [
     {
         title: "★ Move",
         icon: "run",
-        subtitle: "1 foot moved costs 1 foot.",
+        subtitle: "1ft moved = 1ft of Speed",
         description: "Cross a distance by walking, running, or other means.",
         reference: "See Playing the Game: Combat (Movement and Position), Rules Glossary: Speed",
         bullets: [
