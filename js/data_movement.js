@@ -6,7 +6,9 @@ data_movement = [
         description: "Cross a distance by walking, running, or other means.",
         reference: "See Playing the Game: Combat (Movement and Position), Rules Glossary: Speed",
         bullets: [
-            "On your turn, you can move a distance equal to your Speed or less. Or you can decide not to move.</br></br>Your movement can include climbing, crawling, jumping, and swimming. These different modes of movement can be combined with your regular movement, or they can constitute your entire move.</br></br>However you’re moving, deduct the distance of each part of your move from your Speed until it is used up or until you are done moving, whichever comes first.",
+            "On your turn, you can move a distance equal to your Speed or less. Or you can decide not to move.",
+            "Your movement can include climbing, crawling, jumping, and swimming. These different modes of movement can be combined with your regular movement, or they can constitute your entire move.",
+            "However you’re moving, deduct the distance of each part of your move from your Speed until it is used up or until you are done moving, whichever comes first.",
             "<b>Moving Around Other Creatures.</b> During your move, you can pass through the space of an ally, a creature that has the Incapacitated condition, a Tiny creature, or a creature that is two sizes larger or smaller than you. Another creature’s space is Difficult Terrain for you unless that creature is Tiny or your ally. You can’t willingly end a move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the Prone condition unless you are Tiny or are of a larger size than the other creature.",
             "<b>Special Speeds.</b> Some creatures have special speeds, such as Burrow Speed, Climb Speed, Fly Speed, or Swim Speed. If you have more than one speed, choose which one to use when you move; you can switch between the speeds during your move. Whenever you switch, subtract the distance already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move.",
             "<b>Changes to Your Speeds.</b> If an effect increases or decreases your Speed for a time, any special speed you have increases or decreases by an equal amount for the same duration."
@@ -52,13 +54,7 @@ data_movement = [
         reference: "See Playing the Game: Combat (Movement and Position)",
         bullets: [
             "If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. For example, moving 5 feet through Difficult Terrain costs 10 feet of movement. Difficult Terrain isn't cumulative; either a space is Difficult Terrain, or it isn't.",
-            "A space is Difficult Terrain if it contains any of the following, or something similar:",
-            "- A creature that isn't Tiny or your ally.",
-            "- Furniture that is sized for creatures of your size or larger.",
-            "- Heavy snow, ice, rubble, or undergrowth.",
-            "- Liquid that's between shin- and waist-deep.",
-            "- A narrow opening sized for a creature one size smaller than you.",
-            "- A slope of 20 degrees or more."
+            "A space is Difficult Terrain if it contains any of the following, or something similar:</br><ul><li>A creature that isn't Tiny or your ally.</li><li>Furniture that is sized for creatures of your size or larger.</li><li>Heavy snow, ice, rubble, or undergrowth.</li><li>Liquid that's between shin- and waist-deep.</li><li>A narrow opening sized for a creature one size smaller than you.</li><li>A slope of 20 degrees or more.</li></ul>"
         ]
     },
     {
