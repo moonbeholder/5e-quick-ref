@@ -8,10 +8,10 @@ data_movement = [
         bullets: [
             "On your turn, you can move a distance equal to your Speed or less. Or you can decide not to move.",
             "Your movement can include climbing, crawling, jumping, and swimming. These different modes of movement can be combined with your regular movement, or they can constitute your entire move.",
-            "However you’re moving with your Speed, you deduct the distance of each part of your move from it until it is used up or until you are done moving, whichever comes first.",
-            "<b>Moving around Other Creatures.</b> During your move, you can pass through the space of an ally, a creature that has the Incapacitated condition, a Tiny creature, or a creature that is two sizes larger or smaller than you. Another creature’s space is Difficult Terrain for you unless that creature is Tiny or your ally. You can’t willingly end a move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the Prone condition unless you are Tiny or are of a larger size than the other creature.",
+            "However you’re moving, deduct the distance of each part of your move from your Speed until it is used up or until you are done moving, whichever comes first.",
+            "<b>Moving Around Other Creatures.</b> During your move, you can pass through the space of an ally, a creature that has the Incapacitated condition, a Tiny creature, or a creature that is two sizes larger or smaller than you. Another creature’s space is Difficult Terrain for you unless that creature is Tiny or your ally. You can’t willingly end a move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the Prone condition unless you are Tiny or are of a larger size than the other creature.",
             "<b>Special Speeds.</b> Some creatures have special speeds, such as Burrow Speed, Climb Speed, Fly Speed, or Swim Speed. If you have more than one speed, choose which one to use when you move; you can switch between the speeds during your move. Whenever you switch, subtract the distance already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move.",
-            "<b>Changes to Your Speeds. If an effect increases or decreases your Speed for a time, any special speed you have increases or decreases by an equal amount for the same duration.</b> "
+            "<b>Changes to Your Speeds.</b> If an effect increases or decreases your Speed for a time, any special speed you have increases or decreases by an equal amount for the same duration."
         ]
     },
     {
