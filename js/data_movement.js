@@ -1,5 +1,18 @@
 data_movement = [
     {
+        title: "★ Move",
+        icon: "run",
+        subtitle: "1 foot moved costs 1 foot.",
+        description: "Move around normally.",
+        reference: "???",
+        bullets: [
+            "On your turn, you can move a distance equal to your Speed or less. Or you can decide not to move.",
+            "Your movement can include climbing, crawling, jumping, and swimming. These different modes of movement can be combined with your regular movement, or they can constitute your entire move.",
+            "However you’re moving with your Speed, you deduct the distance of each part of your move from it until it is used up or until you are done moving, whichever comes first.",
+            "<b><i>Moving around Other Creatures.</i></b> During your move, you can pass through the space of an ally, a creature that has the Incapacitated condition, a Tiny creature, or a creature that is two sizes larger or smaller than you. Another creature’s space is Difficult Terrain for you unless that creature is Tiny or your ally. You can’t willingly end a move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the Prone condition unless you are Tiny or are of a larger size than the other creature."
+        ]
+    },
+    {
         title: "Climb",
         icon: "mountain-climbing",
         subtitle: "1 foot moved costs 1 extra foot.",
@@ -88,19 +101,6 @@ data_movement = [
             "When you make a Long Jump, you leap horizontally a number of feet up to your Strength score if you move at least 10 feet immediately before the jump. When you make a standing Long Jump, you can leap only half that distance. Either way, each foot you jump costs a foot of movement.",
             "If you land in Difficult Terrain, you must succeed on a DC 10 Dexterity (Acrobatics) check or have the Prone condition.",
             "This Long Jump rule assumes that the height of the jump doesn't matter, such as a jump across a stream or a chasm. At your DM's discretion, you must succeed on a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance), such as a hedge or a low wall. Otherwise, you hit the obstacle."
-        ]
-    },
-    {
-        title: "Move",
-        icon: "run",
-        subtitle: "1 foot moved costs 1 foot.",
-        description: "Move around normally.",
-        reference: "???",
-        bullets: [
-            "On your turn, you can move a distance equal to your Speed or less. Or you can decide not to move.",
-            "Your movement can include climbing, crawling, jumping, and swimming. These different modes of movement can be combined with your regular movement, or they can constitute your entire move.",
-            "However you’re moving with your Speed, you deduct the distance of each part of your move from it until it is used up or until you are done moving, whichever comes first.",
-            "<b><i>Moving around Other Creatures.</i></b> During your move, you can pass through the space of an ally, a creature that has the Incapacitated condition, a Tiny creature, or a creature that is two sizes larger or smaller than you. Another creature’s space is Difficult Terrain for you unless that creature is Tiny or your ally. You can’t willingly end a move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the Prone condition unless you are Tiny or are of a larger size than the other creature."
         ]
     },
     {
