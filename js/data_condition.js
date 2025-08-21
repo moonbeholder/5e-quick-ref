@@ -199,7 +199,7 @@ data_condition = [
         ]
     },
     {
-        title: "Dying",
+        title: "★ Dying",
         icon: "backstab",
         subtitle: "Close to death",
         description: "You hover on the brink of death, barely clinging to life.",
