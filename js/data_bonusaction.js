@@ -1,6 +1,6 @@
 data_bonusaction = [
     {
-        title: "Extra Attack",
+        title: "★ Extra Attack",
         icon: "sword-brandish",
         subtitle: "Make an extra attack.",
         description: "Make an extra attack with a Light weapon held in a different hand.",
@@ -10,10 +10,10 @@ data_bonusaction = [
         ]
     },
     {
-        title: "Magic",
+        title: "Cast a Spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 bonus action.",
-        description: "Cast a spell as a bonus action",
+        description: "Cast a spell as a bonus action.",
         reference: "See Spells: Casting Spells (Casting Time)",
         bullets: [
             "Most spells require the Magic action to cast, but some spells require a Bonus Action. A spell’s Casting Time entry specifies whether it takes an Action, a Bonus Action, a Reation, etc.",
@@ -24,8 +24,8 @@ data_bonusaction = [
     {
         title: "Other Ability",
         icon: "embraced-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
+        subtitle: "Some features use bonus actions.",
+        description: "Use a racial or class feature that uses a bonus action.",
         reference: "See class or ability page for more information.",
         bullets: [
             "You can take a Bonus Action if a special ability, or another feature of the game states that you can do something as a Bonus Action."
