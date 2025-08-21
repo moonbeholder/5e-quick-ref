@@ -2,7 +2,7 @@ data_bonusaction = [
     {
         title: "★ Extra Attack",
         icon: "sword-brandish",
-        subtitle: "Make an off-hand attack.",
+        subtitle: "Make an off-hand attack",
         description: "Make an additional attack with a light weapon in the off-hand.",
         reference: "See Equipment: Weapons (Properties: Light)",
         bullets: [
