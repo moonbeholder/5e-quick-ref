@@ -1,6 +1,6 @@
 data_bonusaction = [
     {
-        title: "★ Extra Attack",
+        title: "Attack (Extra)",
         icon: "sword-brandish",
         subtitle: "Make an off-hand attack",
         description: "Make an additional attack with a light weapon in the off-hand.",
