@@ -2,8 +2,8 @@ data_action = [
     {
         title: "Attack",
         icon: "sword-brandish",
-        subtitle: "Make a melee or ranged attack.",
-        description: "Make an attack roll with a weapon or an Unarmed Strike.",
+        subtitle: "Harm a target",
+        description: "Attempt to harm a target with a weapon, spell, or unarmed strike.",
         reference: "See Playing the Game: Combat (Making an Attack), Rules Glossary: Attack [Action]",
         bullets: [
             "When you take the Attack action, you make an attack. Whether you strike with a Melee weapon, fire a Ranged weapon, or make an attack roll as part of a spell, an attack has the following structure:",
@@ -15,42 +15,10 @@ data_action = [
         ]
     },
     {
-        title: "Dash",
-        icon: "sprint",
-        subtitle: "Double your movement speed.",
-        description: "For the rest of the turn, gain extra movement equal to your Speed.",
-        reference: "See Rules Glossary: Dash [Action]",
-        bullets: [
-            "When you take the Dash action, you gain extra movement for the current turn. The increase equals your Speed after applying any modifiers. With a Speed of 30 feet, for example, you can move up to 60 feet on your turn if you Dash.",
-            "If your Speed of 30 feet is reduced to 15 feet, you can move up to 30 feet this turn if you Dash."
-        ]
-    },
-    {
-        title: "Disengage",
-        icon: "journey",
-        subtitle: "Prevent opportunity attacks.",
-        description: "Movement doesn’t provoke Opportunity Attack for the rest of the turn.",
-        reference: "See Rules Glossary: Disengage [Action]",
-        bullets: [
-            "If you take the Disengage action, your movement doesn’t provoke Opportunity Attacks for the rest of the current turn."
-        ]
-    },
-    {
-        title: "Dodge",
-        icon: "dodging",
-        subtitle: "Increase your defenses.",
-        description: "Attack rolls against you have Disadvantage, and you make Dexterity saving throws with Advantage.",
-        reference: "See Rules Glossary: Dodge [Action]",
-        bullets: [
-            "If you take the Dodge action, you gain the following benefits: until the start of your next turn, any attack roll made against you has Disadvantage if you can see the attacker, and you make Dexterity saving throws with Advantage.",
-            "You lose these benefits if you have the Incapacitated condition or if your Speed is 0."
-        ]
-    },
-    {
-        title: "Grapple",
+        title: "Attack (Grapple)",
         icon: "grab",
-        subtitle: "Grab a creature.",
-        description: "Grab another creature with a hand, etc. and hold onto them.",
+        subtitle: "Grab a creature",
+        description: "Seize another creature and hold it.",
         reference: "See Rules Glossary: Grappling, Rules Glossary, Unarmed Strike",
         bullets: [
             "A creature can grapple another creature. Characters typically grapple by using an Unarmed Strike. Many monsters have special attacks that allow them to quickly grapple prey. However a grapple is initiated, it follows these rules.",
@@ -61,22 +29,102 @@ data_action = [
         ]
     },
     {
+        title: "Attack (Melee)",
+        icon: "swordwoman",
+        subtitle: "Attack within reach",
+        description: "Make a close range attack against a nearby foe.",
+        reference: "See Playing the Game: Combat (Melee Attacks)",
+        bullets: [
+            "A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.",
+            "<b><i>Reach.</i></b> A creature has a 5-foot reach and can thus attack targets within 5 feet when making a melee attack. Certain creatures have melee attacks with a reach greater than 5 feet, as noted in their descriptions."
+        ]
+    },
+    {
+        title: "Attack (Ranged)",
+        icon: "bowman",
+        subtitle: "Attack from a distance",
+        description: "Make a long range attack against a foe at a distance.",
+        reference: "See Playing the Game: Combat (Ranged Attacks)",
+        bullets: [
+            "When you make a ranged attack, you fire a bow, hurl an axe, or otherwise send projectiles to strike a foe at a distance. Many spells also involve making a ranged attack.",
+            "<b><i>Range.</i></b> You can make ranged attacks only against targets within a specified range. If a ranged attack, such as one made with a spell, has a single range, you can’t attack a target beyond this range.",
+            "Some ranged attacks, such as those made with a Longbow, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has Disadvantage when your target is beyond normal range, and you can’t attack a target beyond long range.",
+            "<b><i>Ranged Attacks in Close Combat.</i></b> Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack roll with a weapon, a spell, or some other means, you have Disadvantage on the roll if you are within 5 feet of an enemy who can see you and doesn’t have the Incapacitated condition."
+        ]
+    },
+    {
+        title: "Attack (Shove)",
+        icon: "hand",
+        subtitle: "Push a target",
+        description: "Shove a creature away, or push them away.",
+        reference: "See Rules Glossary: Unarmed Strike",
+        bullets: [
+            "The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push it 5 feet away or cause it to have the Prone condition. The DC for the saving throw equals 8 plus your Strength modifier and Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you."
+        ]
+    },
+    {
+        title: "Attack (Unarmed Strike)",
+        icon: "punch",
+        subtitle: "Attack without a weapon",
+        description: "Strike a creature using fists, feet, or other body parts.",
+        reference: "See Rules Glossary: Unarmed Strike",
+        bullets: [
+            "Instead of using a weapon to make a melee attack, you can use a punch, kick, headbutt, or similar forceful blow. In game terms, this is an Unarmed Strike—a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.",
+            "Whenever you use your Unarmed Strike, choose one of the following options for its effect.",
+            "<b><i>Damage.</i></b> You make an attack roll against the target. Your bonus to the roll equals your Strength modifier plus your Proficiency Bonus. On a hit, the target takes Bludgeoning damage equal to 1 plus your Strength modifier.",
+            "<b><i>Grapple.</i></b> The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the Grappled condition. The DC for the saving throw and any escape attempts equals 8 plus your Strength modifier and Proficiency Bonus. This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it.",
+            "<b><i>Shove.</i></b> The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push it 5 feet away or cause it to have the Prone condition. The DC for the saving throw equals 8 plus your Strength modifier and Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you."
+        ]
+    },
+    {
+        title: "Dash",
+        icon: "sprint",
+        subtitle: "Double your movement",
+        description: "Quicken your pace to gain extra movement.",
+        reference: "See Rules Glossary: Dash [Action]",
+        bullets: [
+            "When you take the Dash action, you gain extra movement for the current turn. The increase equals your Speed after applying any modifiers."
+        ]
+    },
+    {
+        title: "Disengage",
+        icon: "journey",
+        subtitle: "No opportunity attacks",
+        description: "Move carefully to avoid provoking enemy attacks.",
+        reference: "See Rules Glossary: Disengage [Action]",
+        bullets: [
+            "If you take the Disengage action, your movement doesn’t provoke Opportunity Attacks for the rest of the current turn."
+        ]
+    },
+    {
+        title: "Dodge",
+        icon: "dodging",
+        subtitle: "Focus on defense",
+        description: "Adopt a defensive stance, shifting constantly to avoid harm.",
+        reference: "See Rules Glossary: Dodge [Action]",
+        bullets: [
+            "If you take the Dodge action, you gain the following benefits: until the start of your next turn, any attack roll made against you has Disadvantage if you can see the attacker, and you make Dexterity saving throws with Advantage.",
+            "You lose these benefits if you have the Incapacitated condition or if your Speed is 0."
+        ]
+    },
+    {
         title: "Help",
         icon: "shaking-hands",
-        subtitle: "Aid an ally.",
-        description: "Help another creature’s ability check or attack roll, or administer first aid.",
+        subtitle: "Aid an ally",
+        description: "Offer practical support to improve an ally's chance of success, or administer first aid.",
         reference: "See Rules Glossary: Help [Action]",
         bullets: [
             "When you take the Help action, you do one of the following.",
             "Assist an Ability Check. Choose one of your skill or tool proficiencies and one ally who is near enough for you to assist verbally or physically when they make an ability check. That ally has Advantage on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn’t use it before the start of your next turn. The DM has final say on whether your assistance is possible.",
-            "Assist an Attack Roll. You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn."
+            "Assist an Attack Roll. You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn.",
+            "<b>Stabilizing a Creature.</b> You can take the Help action to try to stabilize a creature with 0 HP, which requires a successful DC 10 Wisdom (Medicine) check. A Stable creature doesn’t make Death Saving Throws even though it has 0 HP, but it still has the Unconscious condition. If the creature takes damage, it stops being Stable and starts making Death Saving Throws again. A Stable creature that isn’t healed regains 1 HP after 1d4 hours."
         ]
     },
     {
         title: "Hide",
         icon: "hood",
-        subtitle: "Conceal yourself.",
-        description: "Try to conceal yourself in order to be unseen by other creatures.",
+        subtitle: "Conceal yourself",
+        description: "Try to disappear from view, and avoid detection.",
         reference: "See Rules Glossary: Hide [Action]",
         bullets: [
             "With the Hide action, you try to conceal yourself. To do so, you must succeed on a DC 15 Dexterity (Stealth) check while you’re Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any enemy’s line of sight; if you can see a creature, you can discern whether it can see you.",
@@ -87,7 +135,7 @@ data_action = [
     {
         title: "Improvise",
         icon: "juggler",
-        subtitle: "Any action not on this list.",
+        subtitle: "Do anything else",
         description: "Perform any action you can imagine.",
         reference: "See Playing the Game: Actions",
         bullets: [
@@ -97,8 +145,8 @@ data_action = [
     {
         title: "Influence",
         icon: "suspicious",
-        subtitle: "Alter a creature's attitude.",
-        description: "Make a Charisma or Wisdom check to alter a creature’s attitude.",
+        subtitle: "Alter a creature's behavior",
+        description: "Use words or actions to encourage a creature to do what you want.",
         reference: "See Rules Glossary: Influence [Action]",
         bullets: [
             "You urge a monster to do something. Describe or roleplay how you’re communicating with the monster. The DM then determines whether the monster feels willing, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary.",
@@ -112,8 +160,8 @@ data_action = [
     {
         title: "Magic",
         icon: "magic-swirl",
-        subtitle: "Do something magic.",
-        description: "Cast a spell, use a magic item, or use a magical feature.",
+        subtitle: "Perform magic",
+        description: "Cast a spell, perform an ability, or use a magic item to produce a magical effect.",
         reference: "See Rules Glossary: Magic [Action], Spells: Casting Spells (Casting Time)",
         bullets: [
             "When you take the Magic action, you cast a spell that has a casting time of an action or use a feature or magic item that requires a Magic action to be activated.",
@@ -122,44 +170,20 @@ data_action = [
         ]
     },
     {
-        title: "Melee Attack",
-        icon: "swordwoman",
-        subtitle: "Make a melee attack.",
-        description: "Attack a target within reach with a weapon or an Unarmed Strike.",
-        reference: "See Playing the Game: Combat (Melee Attacks)",
-        bullets: [
-            "A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.",
-            "<b><i>Reach.</i></b> A creature has a 5-foot reach and can thus attack targets within 5 feet when making a melee attack. Certain creatures have melee attacks with a reach greater than 5 feet, as noted in their descriptions."
-        ]
-    },
-    {
         title: "Other Ability",
         icon: "embraced-energy",
-        subtitle: "Use a character ability.",
-        description: "Use a class feature or another ability.",
+        subtitle: "Use a character ability",
+        description: "Perform an action tied to a special ability or trait.",
         reference: "See class page or relevant page",
         bullets: [
             "Many class features and other abilities provide additional action options."
         ]
     },
     {
-        title: "Ranged Attack",
-        icon: "bowman",
-        subtitle: "Make a ranged attack.",
-        description: "Attack a target at a distance.",
-        reference: "See Playing the Game: Combat (Ranged Attacks)",
-        bullets: [
-            "When you make a ranged attack, you fire a bow, hurl an axe, or otherwise send projectiles to strike a foe at a distance. Many spells also involve making a ranged attack.",
-            "<b><i>Range.</i></b> You can make ranged attacks only against targets within a specified range. If a ranged attack, such as one made with a spell, has a single range, you can’t attack a target beyond this range.",
-            "Some ranged attacks, such as those made with a Longbow, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has Disadvantage when your target is beyond normal range, and you can’t attack a target beyond long range.",
-            "<b><i>Ranged Attacks in Close Combat.</i></b> Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack roll with a weapon, a spell, or some other means, you have Disadvantage on the roll if you are within 5 feet of an enemy who can see you and doesn’t have the Incapacitated condition."
-        ]
-    },
-    {
         title: "Ready",
         icon: "stopwatch",
-        subtitle: "Prepare an action.",
-        description: "Prepare to take an action in response to a trigger you define.",
+        subtitle: "Prepare an action",
+        description: "Prepare to take an action in response to a defined trigger.",
         reference: "See Rules Glossary: Ready [Action]",
         bullets: [
             "You take the Ready action to wait for a particular circumstance before you act. To do so, you take this action on your turn, which lets you act by taking a Reaction before the start of your next turn.",
@@ -171,8 +195,8 @@ data_action = [
     {
         title: "Search",
         icon: "magnifying-glass",
-        subtitle: "Use your senses.",
-        description: "Try to spot something not obvious.",
+        subtitle: "Look for clues",
+        description: "Examine the area or a creature to find something hidden or overlooked.",
         reference: "See Rules Glossary: Search [Action]",
         bullets: [
             "When you take the Search action, you make a Wisdom check to discern something that isn’t obvious. The Search table suggests which skills are applicable when you take this action, depending on what you’re trying to detect.",
@@ -180,20 +204,10 @@ data_action = [
         ]
     },
     {
-        title: "Shove",
-        icon: "hand",
-        subtitle: "Push another creature.",
-        description: "Push, pull, or knock down another creature.",
-        reference: "See Rules Glossary: Unarmed Strike",
-        bullets: [
-            "The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push it 5 feet away or cause it to have the Prone condition. The DC for the saving throw equals 8 plus your Strength modifier and Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you."
-        ]
-    },
-    {
         title: "Study",
         icon: "think",
-        subtitle: "Use your brain.",
-        description: "Try to deduce important information.",
+        subtitle: "Interpret clues",
+        description: "Focus on information, recalling knowledge, or examining details to gain understanding.",
         reference: "See Rules Glossary: Study [Action]",
         bullets: [
             "When you take the Study action, you make an Intelligence check to study your memory, a book, a clue, or another source of knowledge and call to mind an important piece of information about it.",
@@ -201,24 +215,10 @@ data_action = [
         ]
     },
     {
-        title: "Unarmed Strike",
-        icon: "punch",
-        subtitle: "Make an unarmed attack.",
-        description: "Make an attack without a weapon.",
-        reference: "See Rules Glossary: Unarmed Strike",
-        bullets: [
-            "Instead of using a weapon to make a melee attack, you can use a punch, kick, headbutt, or similar forceful blow. In game terms, this is an Unarmed Strike—a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.",
-            "Whenever you use your Unarmed Strike, choose one of the following options for its effect.",
-            "<b><i>Damage.</i></b> You make an attack roll against the target. Your bonus to the roll equals your Strength modifier plus your Proficiency Bonus. On a hit, the target takes Bludgeoning damage equal to 1 plus your Strength modifier.",
-            "<b><i>Grapple.</i></b> The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the Grappled condition. The DC for the saving throw and any escape attempts equals 8 plus your Strength modifier and Proficiency Bonus. This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it.",
-            "<b><i>Shove.</i></b> The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push it 5 feet away or cause it to have the Prone condition. The DC for the saving throw equals 8 plus your Strength modifier and Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you."
-        ]
-    },
-    {
         title: "Utilize",
         icon: "snatch",
-        subtitle: "Interact with an object.",
-        description: "Use a nonmagical object.",
+        subtitle: "Use an object",
+        description: "Use an item, tool, or object to achieve an effect.",
         reference: "See Rules Glossary: Utilize [Action]",
         bullets: [
             "You normally interact with an object while doing something else, such as when you draw a sword as part of the Attack action. When an object requires an action for its use, you take the Utilize action."
