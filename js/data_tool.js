@@ -1,7 +1,7 @@
 data_tool_artisan = [
     {
         title: "Alchemist's Supplies",
-        icon: "",
+        icon: "dripping-tube",
         subtitle: "Cost: 50 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -13,7 +13,7 @@ data_tool_artisan = [
     },
     {
         title: "Brewer's Supplies",
-        icon: "",
+        icon: "barrel",
         subtitle: "Cost: 20 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -49,7 +49,7 @@ data_tool_artisan = [
     },
     {
         title: "Cartographer's Tools",
-        icon: "",
+        icon: "treasure-map",
         subtitle: "Cost: 15 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -61,7 +61,7 @@ data_tool_artisan = [
     },
     {
         title: "Cobbler's Tools",
-        icon: "",
+        icon: "boots",
         subtitle: "Cost: 5 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -73,7 +73,7 @@ data_tool_artisan = [
     },
     {
         title: "Cook's Utensils",
-        icon: "",
+        icon: "ladle",
         subtitle: "Cost: 1 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -85,7 +85,7 @@ data_tool_artisan = [
     },
     {
         title: "Glassblower's Tools",
-        icon: "",
+        icon: "mason-jar",
         subtitle: "Cost: 30 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -97,7 +97,7 @@ data_tool_artisan = [
     },
     {
         title: "Jeweler's Tools",
-        icon: "",
+        icon: "gem-pendant",
         subtitle: "Cost: 25 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -109,7 +109,7 @@ data_tool_artisan = [
     },
     {
         title: "Leatherworker's Tools",
-        icon: "",
+        icon: "animal-hide",
         subtitle: "Cost: 5 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -121,7 +121,7 @@ data_tool_artisan = [
     },
     {
         title: "Mason's Tools",
-        icon: "",
+        icon: "stone-crafting",
         subtitle: "Cost: 10 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -135,7 +135,7 @@ data_tool_artisan = [
         title: "Painter's Supplies",
         icon: "",
         subtitle: "Cost: 10 gp",
-        description: "",
+        description: "paint-brush",
         reference: "See Equipment: Tools",
         bullets: [
             "<b>Ability:</b> Wisdom",
@@ -145,7 +145,7 @@ data_tool_artisan = [
     },
     {
         title: "Potter's Tools",
-        icon: "",
+        icon: "painted-pottery",
         subtitle: "Cost: 10 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -157,7 +157,7 @@ data_tool_artisan = [
     },
     {
         title: "Smith's Tools",
-        icon: "",
+        icon: "anvil",
         subtitle: "Cost: 20 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -169,7 +169,7 @@ data_tool_artisan = [
     },
     {
         title: "Tinker's Tools",
-        icon: "",
+        icon: "toolbox",
         subtitle: "Cost: 50 gp",
         description: "",
         reference: "See Equipment: Tools",
