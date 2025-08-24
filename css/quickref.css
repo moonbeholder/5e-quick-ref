@@ -166,6 +166,22 @@
     color: ForestGreen;
 }
 
+#section-skill, #section-skill .item-icon {
+    background-color: ForestGreen;
+    border-color: ForestGreen;
+}
+#section-skill .text {
+    color: ForestGreen;
+}
+
+#section-tool, #section-tool .item-icon {
+    background-color: ForestGreen;
+    border-color: ForestGreen;
+}
+#section-tool .text {
+    color: ForestGreen;
+}
+
 
 /* ------------------------------------------------------------------------- */
 /* Page container */
