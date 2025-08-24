@@ -135,11 +135,11 @@
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
-    background-color: Chocolate;
-    border-color: Chocolate;
+    background-color: Sienna;
+    border-color: Sienna;
 }
 #section-bonus-action .text {
-    color: Chocolate;
+    color: Sienna;
 }
 
 #section-reaction, #section-reaction .item-icon {
@@ -151,11 +151,11 @@
 }
 
 #section-condition, #section-condition .item-icon {
-    background-color: DarkGray;
-    border-color: DarkGray;
+    background-color: DarkSlateGray;
+    border-color: DarkSlateGray;
 }
 #section-condition .text {
-    color: DarkGray;
+    color: DarkSlateGray;
 }
 
 #section-environment, #section-environment .item-icon {
@@ -167,11 +167,11 @@
 }
 
 #section-d20-test, #section-d20-test .item-icon {
-    background-color: DodgerBlue;
-    border-color: DodgerBlue;
+    background-color: RoyalBlue;
+    border-color: RoyalBlue;
 }
 #section-d20-test .text {
-    color: DodgerBlue;
+    color: RoyalBlue;
 }
 
 #section-tool, #section-tool .item-icon {
