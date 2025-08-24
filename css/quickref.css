@@ -135,11 +135,11 @@
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
-    background-color: Sienna;
-    border-color: Sienna;
+    background-color: Chocolate;
+    border-color: Chocolate;
 }
 #section-bonus-action .text {
-    color: Sienna;
+    color: Chocolate;
 }
 
 #section-reaction, #section-reaction .item-icon {
@@ -167,11 +167,11 @@
 }
 
 #section-d20-test, #section-d20-test .item-icon {
-    background-color: RoyalBlue;
-    border-color: RoyalBlue;
+    background-color: DariBlue;
+    border-color: DarkBlue;
 }
 #section-d20-test .text {
-    color: RoyalBlue;
+    color: DarkBlue;
 }
 
 #section-tool, #section-tool .item-icon {
