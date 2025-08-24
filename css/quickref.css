@@ -135,43 +135,43 @@
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
-    background-color: Tomato;
-    border-color: Tomato;
+    background-color: DarkOrange;
+    border-color: DarkOrange;
 }
 #section-bonus-action .text {
-    color: Tomato;
+    color: DarkOrange;
 }
 
 #section-reaction, #section-reaction .item-icon {
-    background-color: Plum;
-    border-color: Plum;
+    background-color: MediumVioletRed;
+    border-color: MediumVioletRed;
 }
 #section-reaction .text {
-    color: Plum;
+    color: MediumVioletRed;
 }
 
 #section-condition, #section-condition .item-icon {
-    background-color: SlateGray;
-    border-color: SlateGray;
+    background-color: DarkGray;
+    border-color: DarkGray;
 }
 #section-condition .text {
-    color: SlateGray;
+    color: DarkGray;
 }
 
 #section-environment, #section-environment .item-icon {
-    background-color: Chocolate;
-    border-color: Chocolate;
+    background-color: SaddleBrown;
+    border-color: SaddleBrown;
 }
 #section-environment .text {
-    color: Chocolate;
+    color: SaddleBrown;
 }
 
 #section-d20-test, #section-d20-test .item-icon {
-    background-color: DeepSkyBlue;
-    border-color: DeepSkyBlue;
+    background-color: DodgerBlue;
+    border-color: DodgerBlue;
 }
 #section-d20-test .text {
-    color: DeepSkyBlue;
+    color: DodgerBlue;
 }
 
 #section-tool, #section-tool .item-icon {
