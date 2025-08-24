@@ -66,8 +66,8 @@ function init() {
     fill_section(data_environment_light, "environment-light", "Environment");
     fill_section(data_environment_vision, "environment-vision", "Environment");
     fill_section(data_environment_cover, "environment-cover", "Environment");
-    fill_section(data_d20_test_ability, "d20-test-ability", "D20 Tests");
-    fill_section(data_d20_test_skill, "d20-test-skill", "D20 Tests");
+    fill_section(data_d20_test_ability, "d20-test-ability", "D20 Test");
+    fill_section(data_d20_test_skill, "d20-test-skill", "D20 Test");
     fill_section(data_tool_artisan, "tool-artisan", "Tool");
     fill_section(data_tool_other, "tool-other", "Tool");
 
