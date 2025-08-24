@@ -143,11 +143,11 @@
 }
 
 #section-reaction, #section-reaction .item-icon {
-    background-color: MediumVioletRed;
-    border-color: MediumVioletRed;
+    background-color: Indigo;
+    border-color: Indigo;
 }
 #section-reaction .text {
-    color: MediumVioletRed;
+    color: Indigo;
 }
 
 #section-condition, #section-condition .item-icon {
@@ -175,11 +175,11 @@
 }
 
 #section-tool, #section-tool .item-icon {
-    background-color: Indigo;
-    border-color: Indigo;
+    background-color: MediumVioletRed;
+    border-color: MediumVioletRed;
 }
 #section-tool .text {
-    color: Indigo;
+    color: MediumVioletRed;
 }
 
 
