@@ -127,11 +127,11 @@
 }
 
 #section-action, #section-action .item-icon {
-    background-color: FireBrick;
-    border-color: FireBrick;
+    background-color: DarkSlateGray;
+    border-color: DarkSlateGray;
 }
 #section-action .text {
-    color: FireBrick;
+    color: DarkSlateGray;
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
@@ -151,11 +151,11 @@
 }
 
 #section-condition, #section-condition .item-icon {
-    background-color: DarkSlateGray;
-    border-color: DarkSlateGray;
+    background-color: FireBrick;
+    border-color: FireBrick;
 }
 #section-condition .text {
-    color: DarkSlateGray;
+    color: FireBrick;
 }
 
 #section-environment, #section-environment .item-icon {
