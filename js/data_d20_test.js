@@ -34,7 +34,7 @@ data_d20_test_ability = [
     },
     {
         title: "Intelligence",
-        icon: "",
+        icon: "int",
         subtitle: "Reasoning & memory",
         description: "Intelligence measures mental acuity, accuracy of recall, and the ability to reason.",
         reference: "See Playing the Game: D20 Tests",
