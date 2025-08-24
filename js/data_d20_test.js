@@ -1,7 +1,7 @@
 data_d20_test_ability = [
     {
         title: "Strength",
-        icon: "",
+        icon: "str",
         subtitle: "Physical might",
         description: "Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.",
         reference: "See Playing the Game: D20 Tests",
@@ -12,7 +12,7 @@ data_d20_test_ability = [
     },
     {
         title: "Dexterity",
-        icon: "",
+        icon: "dex",
         subtitle: "Agility, reflexes, & balance",
         description: "Dexterity measures agility, reflexes, and balance.",
         reference: "See Playing the Game: D20 Tests",
@@ -23,7 +23,7 @@ data_d20_test_ability = [
     },
     {
         title: "Constitution",
-        icon: "",
+        icon: "con",
         subtitle: "Health & stamina",
         description: "Constitution measures health, stamina, and vital force.",
         reference: "See Playing the Game: D20 Tests",
@@ -45,7 +45,7 @@ data_d20_test_ability = [
     },
     {
         title: "Wisdom",
-        icon: "",
+        icon: "wis",
         subtitle: "Awareness, & willpower",
         description: "Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition.",
         reference: "See Playing the Game: D20 Tests",
@@ -56,7 +56,7 @@ data_d20_test_ability = [
     },
     {
         title: "Charisma",
-        icon: "",
+        icon: "cha",
         subtitle: "Confidence, poise, & charm",
         description: "Charisma measures your ability to interact effectively with others, including such factors as confidence and eloquence, and it can represent a charming or commanding personality.",
         reference: "See Playing the Game: D20 Tests",
