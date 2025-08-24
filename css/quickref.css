@@ -119,67 +119,67 @@
 /* Colors */
 /* ------------------------------------------------------------------------- */
 #section-movement, #section-movement .item-icon {
-    background-color: maroon;
-    border-color: maroon;
+    background-color: DarkGreen;
+    border-color: DarkGreen;
 }
 #section-movement .text {
-    color: maroon;
+    color: DarkGreen;
 }
 
 #section-action, #section-action .item-icon {
-    background-color: black;
-    border-color: black;
-}
-#section-action .text {
-    color: black;
-}
-
-#section-bonus-action, #section-bonus-action .item-icon {
-    background-color: indigo;
-    border-color: indigo;
-}
-#section-bonus-action .text {
-    color: indigo;
-}
-
-#section-reaction, #section-reaction .item-icon {
-    background-color: DarkOliveGreen ;
-    border-color: DarkOliveGreen ;
-}
-#section-reaction .text {
-    color: DarkOliveGreen ;
-}
-
-#section-condition, #section-condition .item-icon {
     background-color: FireBrick;
     border-color: FireBrick;
 }
-#section-condition .text {
+#section-action .text {
     color: FireBrick;
 }
 
-#section-environment, #section-environment .item-icon {
-    background-color: ForestGreen;
-    border-color: ForestGreen;
+#section-bonus-action, #section-bonus-action .item-icon {
+    background-color: Tomato;
+    border-color: Tomato;
 }
-#section-environment .text {
-    color: ForestGreen;
+#section-bonus-action .text {
+    color: Tomato;
 }
 
-#section-skill, #section-skill .item-icon {
-    background-color: ForestGreen;
-    border-color: ForestGreen;
+#section-reaction, #section-reaction .item-icon {
+    background-color: Plum;
+    border-color: Plum;
 }
-#section-skill .text {
-    color: ForestGreen;
+#section-reaction .text {
+    color: Plum;
+}
+
+#section-condition, #section-condition .item-icon {
+    background-color: SlateGray;
+    border-color: SlateGray;
+}
+#section-condition .text {
+    color: SlateGray;
+}
+
+#section-environment, #section-environment .item-icon {
+    background-color: Chocolate;
+    border-color: Chocolate;
+}
+#section-environment .text {
+    color: Chocolate;
+}
+
+#section-d20-test, #section-d20-test .item-icon {
+    background-color: DeepSkyBlue;
+    border-color: DeepSkyBlue;
+}
+#section-d20-test .text {
+    color: DeepSkyBlue;
 }
 
 #section-tool, #section-tool .item-icon {
-    background-color: ForestGreen;
-    border-color: ForestGreen;
+    background-color: Indigo;
+    border-color: Indigo;
 }
 #section-tool .text {
-    color: ForestGreen;
+    color: Indigo;
 }
 
 
