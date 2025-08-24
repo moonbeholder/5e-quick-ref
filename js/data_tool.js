@@ -25,7 +25,7 @@ data_tool_artisan = [
     },
     {
         title: "Calligrapher's Supplies",
-        icon: "",
+        icon: "fountain-pen",
         subtitle: "Cost: 10 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -37,7 +37,7 @@ data_tool_artisan = [
     },
     {
         title: "Carpenter's Tools",
-        icon: "",
+        icon: "hand-saw",
         subtitle: "Cost: 8 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -133,9 +133,9 @@ data_tool_artisan = [
     },
     {
         title: "Painter's Supplies",
-        icon: "",
+        icon: "paint-brush",
         subtitle: "Cost: 10 gp",
-        description: "paint-brush",
+        description: "",
         reference: "See Equipment: Tools",
         bullets: [
             "<b>Ability:</b> Wisdom",
@@ -181,7 +181,7 @@ data_tool_artisan = [
     },
     {
         title: "Weaver's Tools",
-        icon: "",
+        icon: "rolled-cloth",
         subtitle: "Cost: 1 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -193,7 +193,7 @@ data_tool_artisan = [
     },
     {
         title: "Woodcarver's Tools",
-        icon: "",
+        icon: "chisel",
         subtitle: "Cost: 1 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -207,7 +207,7 @@ data_tool_artisan = [
 data_tool_other = [
     {
         title: "Disguise Kit",
-        icon: "",
+        icon: "prank-glasses",
         subtitle: "Cost: 25 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -219,7 +219,7 @@ data_tool_other = [
     },
     {
         title: "Forgery Kit",
-        icon: "",
+        icon: "scroll-quill",
         subtitle: "Cost: 15 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -230,7 +230,7 @@ data_tool_other = [
     },
     {
         title: "Gaming Set",
-        icon: "",
+        icon: "poker-hand",
         subtitle: "Cost: varies",
         description: "",
         reference: "See Equipment: Tools",
@@ -242,7 +242,7 @@ data_tool_other = [
     },
     {
         title: "Herbalism Kit",
-        icon: "",
+        icon: "pestle-mortar",
         subtitle: "Cost: 5 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -254,7 +254,7 @@ data_tool_other = [
     },
     {
         title: "Musical Instrument",
-        icon: "",
+        icon: "violin",
         subtitle: "Cost: varies",
         description: "",
         reference: "See Equipment: Tools",
@@ -266,7 +266,7 @@ data_tool_other = [
     },
     {
         title: "Navigator's Tools",
-        icon: "",
+        icon: "astrolabe",
         subtitle: "Cost: 25 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -277,7 +277,7 @@ data_tool_other = [
     },
     {
         title: "Poisoner's Kit",
-        icon: "",
+        icon: "poison-bottle",
         subtitle: "Cost: 50 gp",
         description: "",
         reference: "See Equipment: Tools",
@@ -289,7 +289,7 @@ data_tool_other = [
     },
     {
         title: "Thieves' Tools",
-        icon: "",
+        icon: "lockpicks",
         subtitle: "Cost: 25 gp",
         description: "",
         reference: "See Equipment: Tools",
