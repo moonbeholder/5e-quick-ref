@@ -66,6 +66,9 @@ function init() {
     fill_section(data_environment_light, "environment-light", "Environment");
     fill_section(data_environment_vision, "environment-vision", "Environment");
     fill_section(data_environment_cover, "environment-cover", "Environment");
+    fill_section(data_skill, "basic-skills", "Skill");
+    fill_section(data_tool_artisan, "tool-artisan", "Tool");
+    fill_section(data_tool_other, "tool-other", "Tool");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
